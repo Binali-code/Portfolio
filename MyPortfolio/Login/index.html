@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<link rel="stylesheet" href="style.css">
+		<title>Login</title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="back-btn">
+				<button class="sec3-btn-right text-uppercase fw-bold" onclick="goBack()">
+                            Go Back
+                </button>
+                
+                 <script>
+                    function goBack() {
+                    window.history.back();
+                    }
+                 </script>
+			</div>
+			<div class="header">Log In</div>
+			<div class="box">
+					<div>
+						<img src="owl.png" class="img">
+					</div>
+					<div class="forms">
+						<label for="name" class="txt2"><b>User Name</b></label>
+						<input type="text" placeholder="Enter User Name" class="txt" name="name" required>
+						<label for="psw" class="txt2"><b>User Password</b></label>
+						<input type="password" placeholder="Enter Password" class="txt" name="psw" required>
+						<button class="btn">Log in</button>
+					</div>
+			</div>
+			
+			<footer>
+				&copy;  2023 - All Rights Reserved
+			</footer>
+		</div>
+	</body>
+</html>

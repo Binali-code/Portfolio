@@ -1,0 +1,150 @@
+﻿.body{
+
+}
+.container{
+	display: flex;
+	flex-direction: column;
+}
+.header{
+	background-image: linear-gradient(380deg, #6F4F28, #474B4E);
+	border-radius: 5px;
+	color: white;
+	font-size: 200%;
+	height: 115px;
+	
+	display: flex;
+	flex-direction: row;
+}
+.logo{
+	display: flex;
+	align-items: center;
+	padding-left: 30px;
+
+}
+.heading{
+	font-family: Arial;
+	border: 1.5px solid white;
+	background-image: linear-gradient(180deg, #6F4F28, black);
+	border-radius: 5px;
+	border-top-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	padding: 10px;
+}
+
+.back-btn{
+	padding-top: 40px;
+	padding-left: 500px;
+}
+
+.section-3-button-right {
+    margin-top: 40px;
+}
+
+.sec3-btn-right {
+    font-family: Roboto, sans-serif;
+    padding: 10px 30px;
+    border: 1px solid #000000;
+    color: #000000;
+    letter-spacing: 2px;
+    box-shadow: 3px 4px 2px rgba(0, 0, 0, 0.2);
+    background-color: transparent;
+    transition: all 0.5s ease;
+}
+
+.sec3-btn-right:hover {
+    color: #FFFFFF;
+    background-color: #000000;
+    transform: translateY(-5px);
+}
+
+.sec3-btn-right:active {
+    transform: translateY(0px);
+}
+
+.nav{
+	padding-top: 40px;
+	padding-left: 400px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.nav1{
+	background-image: linear-gradient(180deg, grey, black);
+	color: white;
+	padding: 10px 15px;
+	border: 1px solid white;
+	border-radius: 10px;
+	cursor: pointer;
+	width: 100%;
+	
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.split{
+	display: flex;
+}
+
+img{
+	
+}
+
+.left{
+	
+}
+
+.P{
+	width: 10px;
+	height: 10px;
+	background-position: center;
+
+}
+
+.right{
+	
+}
+
+.P1{
+	width: 10px;
+	height: 10px;
+	background-position: center;
+}
+
+.image{
+	
+}
+.footer{
+	border-radius: 5px;
+	
+}
+
+@media (max-width: 680px) {
+	.header{
+		background-color: #6F4F28;
+		text-align: center;
+		
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		align-content: center;
+		flex-shrink: 3;
+		padding: 3%;
+	}
+	.heading{
+		border: 1.5px solid white;
+		border-radius: 15px;
+		padding: 5%;
+		text-align: center;
+		
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		align-content: center;
+	}
+	
+}

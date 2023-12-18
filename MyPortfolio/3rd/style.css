@@ -1,0 +1,348 @@
+.body{
+	
+}
+
+.container{
+	display: flex;
+	flex-direction: row;
+}
+
+.back-btn{
+	padding-bottom: 10px;
+}
+
+.section-3-button-right {
+    margin-top: 40px;
+}
+
+.sec3-btn-right {
+    font-family: Roboto, sans-serif;
+    padding: 10px 30px;
+    border: 1px solid #000000;
+    color: #000000;
+    letter-spacing: 2px;
+    box-shadow: 3px 4px 2px rgba(0, 0, 0, 0.2);
+    background-color: transparent;
+    transition: all 0.5s ease;
+}
+
+.sec3-btn-right:hover {
+    color: #FFFFFF;
+    background-color: #000000;
+    transform: translateY(-5px);
+}
+
+.sec3-btn-right:active {
+    transform: translateY(0px);
+}
+
+.column1{
+	font-size: 20px;
+	padding: 80px;
+	padding-top: 10px;
+	background-color: white;
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.image10{
+	width: 100px;
+	height: 109px;
+	background-image: url(koala.jpg);
+	background-position: center;
+	background-size: cover;
+	border: 3px solid #8A9597;
+	border-radius: 50%;
+}
+
+.name10{
+	padding-top: 10px;
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.profile{
+	border-bottom: 3px solid #8A9597;
+}
+
+.nav{
+	padding-top: 15px;
+	padding-bottom: 10px;
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.btn{
+	background-color: #3B83BD;
+	color: white;
+	padding: 10px 5px;
+	border: 1px;
+	border-radius: 20px;
+	cursor: pointer;
+	width: 200%;
+}
+
+.btn-nav{
+	background-color: white;
+	color: black;
+	padding: 10px 5px;
+	border: 1px;
+	border-radius: 10px;
+	cursor: pointer;
+	width: 50%;
+}
+
+.column2{
+	padding:10px;
+	background-color: white;
+	border-right: 1px solid grey;
+	border-left: 1px solid grey;
+	
+	display: flex;
+	flex-direction: column;
+}
+
+.header{
+	padding-left: 10px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #EAEAEA;
+
+	display: flex;
+	flex-direction: column;
+}
+
+.comment{
+	border-bottom: 10px solid #EAEAEA;
+	padding-bottom: 10px;
+}
+
+.t{
+	padding-left: 10px;
+	padding-top: 10px;
+	position: sticky;
+	
+	display: flex;
+	flex-direction: row;
+}
+
+.c{
+	border: 1px;
+	border-radius: 50px;
+	color: #8A9597;
+	padding-left: 15px;
+	width: 90.5%;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.image{
+	width: 50px;
+	height: 50px;
+	background-image: url(koala.jpg);
+	background-position: center;
+	background-size: cover;
+	border: 1px solid #FFFFFF;
+	border-radius: 50%;
+}
+
+.h{
+	padding-right: 10px;
+	padding-top: 10px;
+	
+	
+	display: flex;
+	justify-content: flex-end;
+}
+
+.btn-com{
+	background-color: #3B83BD;
+	color: white;
+	padding: 10px 5px;
+	border: 1px;
+	border-radius: 20px;
+	cursor: pointer;
+	width: 10%;
+}
+
+.comment2{
+	padding-top: 25px;
+	border-bottom: 1px solid #EAEAEA;
+}
+
+.name{
+	padding-top: 5px;
+	padding-left: 10px;
+}
+
+.nam{
+	color: #8A9597;
+}
+
+.nb{
+	color: #3B83BD;
+}
+
+.n{
+	padding-left: 10px;
+	padding-top: 5px;
+
+	display: flex;
+	flex-direction: row;
+}
+
+.comment3{
+	border-bottom: 1px solid #EAEAEA;
+}
+
+.comment4{
+	border-bottom: 1px solid #EAEAEA;
+}
+
+.image2{
+	width: 50px;
+	height: 50px;
+	background-image: url(koala.jpg);
+	background-position: center;
+	background-size: cover;
+	border: 1px solid #FFFFFF;
+	border-radius: 50%;
+}
+
+.comment3{
+	padding-top: 30px;
+}
+
+.a{
+	padding-left: 10px;
+	padding-top: 10px;
+
+	display: flex;
+	flex-direction: row;
+}
+
+.image3{
+	width: 50px;
+	height: 50px;
+	background-image: url(koala.jpg);
+	background-position: center;
+	background-size: cover;
+	border: 1px solid #FFFFFF;
+	border-radius: 50%;
+}
+
+.a1{
+	padding-bottom: 50px;
+	padding-left: 55px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+.image4{
+	width: 650px;
+	height: 250px;
+	background-image: url(boat.jpg);
+	background-position: center;
+	background-size: cover;
+	border: 1px solid #FFFFFF;
+	border-radius: 25px;
+}
+
+.column3{
+	background-color: white;
+	
+	display: flex;
+	flex-direction: column;
+}
+
+.s1{
+	padding-left: 10px;
+}
+
+.s{
+	border: 1px;
+	border-radius: 50px;
+	color: #8A9597;
+	background-color: #EAEAEA;
+	padding-left: 12px;
+	width: 140%;
+	height: 30px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.h2{
+	font-size: 150%;
+	padding-left: 10px;
+}
+
+.h3{
+	color: #8A9597;
+	font-size: 50%;
+	padding-left: 3px;
+}
+
+.bn{
+	padding-left: 10px;
+	
+	display: flex;
+	flex-direction: column;
+}
+
+.image5{
+	width: 100px;
+	height: 100px;
+	background-image: url(boat.jpg);
+	background-position: center;
+	background-size: cover;
+	border: 1px solid #FFFFFF;
+	border-radius: 25px;
+}
+
+.image6{
+	width: 100px;
+	height: 100px;
+	background-image: url(castle.jpg);
+	background-position: center;
+	background-size: cover;
+	border: 1px solid #FFFFFF;
+	border-radius: 25px;
+}
+
+.image7{
+	width: 100px;
+	height: 100px;
+	background-image: url(koala.jpg);
+	background-position: center;
+	background-size: cover;
+	border: 1px solid #FFFFFF;
+	border-radius: 25px;
+}
+
+.i1{
+	display: flex;
+	flex-direction: row;
+}
+
+.btn10{
+	background-color: #3B83BD;
+	color: white;
+	padding: 10px 5px;
+	border: 1px;
+	border-radius: 20px;
+	cursor: pointer;
+	width: 100%;
+}
+

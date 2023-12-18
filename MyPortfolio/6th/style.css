@@ -1,0 +1,505 @@
+.body{
+	
+}
+
+.container{
+	background-color: black;
+
+	display: flex;
+	flex-direction: row;
+}
+
+.column1{
+	border-right: 8px solid black;
+	
+	display: flex;
+	flex-direction: column;
+}
+
+.back-btn{
+	padding: 10px;
+}
+
+.section-3-button-right {
+    margin-top: 40px;
+}
+
+.sec3-btn-right {
+    font-family: Roboto, sans-serif;
+    color: black;
+    background-color: white;
+    letter-spacing: 2px;
+    border: 1px solid white;
+    padding: 10px 30px;
+    box-shadow: 3px 4px 2px rgba(0, 0, 0, 0.2);
+    transition: all 0.5s ease;
+}
+
+.sec3-btn-right:hover {
+    color: #FFFFFF;
+    background-color: #000000;
+    transform: translateY(-5px);
+}
+
+.sec3-btn-right:active {
+    transform: translateY(0px);
+}
+
+.head1{
+	padding-left: 32px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	font-family: Arial;
+	color: white;
+	background-color: #1C1C1C;
+
+	display: flex;
+	flex-direction: row;
+}
+
+.head1A{
+	padding-left: 20px;
+	padding-top: 10px;
+	background-color: #1C1C1C;
+	border-bottom: 8px solid black
+}
+
+.s1{
+	border: 1px;
+	border-radius: 50px;
+	color: white;
+	background-color: #1C1C1C;
+	padding-left: 12px;
+	width: 80%;
+	height: 30px;
+}
+
+.head1B{
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-bottom: 15px;
+	
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	justify-content: space-between;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: black;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	height: 5px;
+	color: white;
+	font-family: Arial;
+	text-align: center;
+	padding: 16px;
+	background-color: #1C1C1C;
+	text-decoration: none;
+	border: 1px;
+	border-radius: 30px;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+li a:hover {
+	color: black;
+	background-color: white;
+	transform: scale(1.0);
+    transition: all 0.1s ease-in-out;
+}
+
+.head1C{
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 8px;
+	color: white;
+	font-family: Arial;
+	background-color: #1C1C1C;
+	border-bottom: 8px solid black;
+	
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.head1D{
+	padding-left: 10px;
+	padding-bottom: 310px;
+	background-color: #1C1C1C;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	justify-content: space-between;
+}
+
+.n{
+	padding-left: 0px;
+	padding-top: 5px;
+
+	display: flex;
+	flex-direction: row;
+}
+
+.nam{
+	color: #8A9597;
+	font-size: 11px;
+}
+
+.name{
+	color: white;
+	font-family: Arial;
+	padding-top: 5px;
+	padding-left: 10px;
+}
+
+.image1{
+	width: 50px;
+	height: 50px;
+	background-image: url(Desert.jpg);
+	background-position: center;
+	background-size: cover;
+	border: 1px solid #FFFFFF;
+	border-radius: 10px;
+}
+
+.n1{
+	background-color: black;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-top: 10px;
+	position: fixed;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	z-index: 0;
+	
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+}
+
+.nam1{
+	color: #8A9597;
+	font-size: 11px;
+}
+
+.name1{
+	color: white;
+	font-family: Arial;
+	padding-top: 5px;
+	padding-left: 10px;
+}
+
+.image1A{
+	width: 50px;
+	height: 50px;
+	background-image: url(Desert.jpg);
+	background-position: center;
+	background-size: cover;
+	border: 1px solid #FFFFFF;
+	border-radius: 10px;
+}
+
+.column2{
+	display: flex;
+	flex-direction: column;
+}
+
+.head2{
+	padding-top: 10px;
+	padding-right: 10px;
+	background-color: #1C1C1C;
+	
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.image2{
+	width: 35px;
+	height: 35px;
+	background-image: url(koala.jpg);
+	background-position: center;
+	background-size: cover;
+	border: 3px solid black;
+	border-radius: 50px;
+}
+
+.head2A{
+	padding: 15px;
+	padding-left: 30px;
+	color: white;
+	font-size: 40px;
+	font-family: Arial;
+	background-color: #1C1C1C;
+	border-bottom: 8px solid black;
+}
+
+.head2B{
+	padding-left: 30px;
+	padding-right: 30px;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	justify-content: space-around;
+}
+
+.n2{
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-right: 190px;
+	background-color: #1C1C1C;
+	border: 1px;
+	border-radius: 10px;
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.image2A{
+	width: 50px;
+	height: 50px;
+	background-image: url(Desert.jpg);
+	background-position: center;
+	background-size: cover;
+	border: 1px solid #FFFFFF;
+	border-radius: 10px;
+}
+
+.name2{
+	color: white;
+	font-family: Arial;
+	padding-top: 5px;
+	padding-left: 10px;
+}
+
+.head2C{
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 8px;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	justify-content: space-around;
+}
+
+.n2A{
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-right: 220px;
+	background-color: #1C1C1C;
+	border: 1px;
+	border-radius: 10px;
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+}
+.n2B{
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-right: 175px;
+	background-color: #1C1C1C;
+	border: 1px;
+	border-radius: 10px;
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.n2C{
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-right: 180px;
+	background-color: #1C1C1C;
+	border: 1px;
+	border-radius: 10px;
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.n2D{
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-right: 60px;
+	background-color: #1C1C1C;
+	border: 1px;
+	border-radius: 10px;
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.n2E{
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-right: 150px;
+	background-color: #1C1C1C;
+	border: 1px;
+	border-radius: 10px;
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.n2F{
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-right: 210px;
+	background-color: #1C1C1C;
+	border: 1px;
+	border-radius: 10px;
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.name2A{
+	color: white;
+	font-family: Arial;
+	font-size: 25px;
+	padding-top: 40px;
+	padding-left: 30px;
+	padding-bottom: 15px;
+}
+
+.head2D{
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 8px;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	justify-content: space-around;
+}
+
+.n2{
+	padding-left: 15px;
+	padding-top: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	background-color: #1C1C1C;
+	background-size: cover;
+	border: 1px;
+	border-radius: 10px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-around;
+}
+
+.image2B{
+	width: 140px;
+	height: 150px;
+	background-image: url(Desert.jpg);
+	background-position: center;
+	background-size: cover;
+	border: 1px solid #FFFFFF;
+	border-radius: 10px;
+}
+
+.name2B{
+	color: white;
+	font-family: Arial Black;
+	padding-top: 10px;
+	padding-left: px;
+}
+
+.name2C{
+	color: grey;
+	font-size: 12px;
+	font-family: Arial;
+	padding-top: 10px;
+	padding-left: px;
+}
+
+.head2E{
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 8px;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	justify-content: space-around;
+}
+
+.name2D{
+	color: black;
+	font-size: 50px;
+	font-family: Arial;
+	padding-top: 10px;
+	padding-left: px;
+}
+
+.n:hover{
+	transform: scale(1.10);
+    transition: all 0.1s ease-in-out;
+}
+
+.n2:hover{
+	transform: scale(1.10);
+    transition: all 0.1s ease-in-out;
+}
+
+.n2A:hover{
+	transform: scale(1.05);
+    transition: all 0.1s ease-in-out;
+}
+
+.n2B:hover{
+	transform: scale(1.05);
+    transition: all 0.1s ease-in-out;
+}
+
+.n2C:hover{
+	transform: scale(1.05);
+    transition: all 0.1s ease-in-out;
+}
+
+.n2D:hover{
+	transform: scale(1.05);
+    transition: all 0.1s ease-in-out;
+}
+
+.n2E:hover{
+	transform: scale(1.05);
+    transition: all 0.1s ease-in-out;
+}
+
+.n2F:hover{
+	transform: scale(1.05);
+    transition: all 0.1s ease-in-out;
+}

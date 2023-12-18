@@ -1,0 +1,197 @@
+.container{
+	height: 600px;
+	background-image: linear-gradient(180deg, grey, white);
+	border: 1px solid grey;
+	border-radius: 25px;
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.header{
+	color: white;
+	font-family: 'Roboto Slab', serif;
+	font-size: 50px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.back-btn{
+	padding-top: 10px;
+}
+
+.section-3-button-right {
+    margin-top: 40px;
+}
+
+.sec3-btn-right {
+    font-family: Roboto, sans-serif;
+    padding: 10px 30px;
+    border: 1px solid #000000;
+    color: #000000;
+    letter-spacing: 2px;
+    box-shadow: 3px 4px 2px rgba(0, 0, 0, 0.2);
+    background-color: transparent;
+    transition: all 0.5s ease;
+}
+
+.sec3-btn-right:hover {
+    color: #FFFFFF;
+    background-color: #000000;
+    transform: translateY(-5px);
+}
+
+.sec3-btn-right:active {
+    transform: translateY(0px);
+}
+
+.box{
+	background-color: rgba(0, 0, 0, -5);
+	background-image: url(castle.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	border: 1px solid white;
+	border-radius: 25px;
+	height: 300px;
+	width: 500px;
+	padding-bottom: 10px;
+	
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.img{
+	height: 230px;
+	width: 180px;
+	padding-top: 10px;
+	padding-left: 10px;
+	
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.txt{
+	
+}
+
+.txt2{
+	color: white;
+	
+	display: flex;
+	justify-content: flex-start;
+}
+
+.forms{
+	padding-top: 25px;
+	padding-left: 58px;
+	padding-right: 15px;
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.btn{
+	background-color: #78858B;
+	color: white;
+	padding: 10px 5px;
+	border: none;
+	cursor: pointer;
+	width: 50%;
+}
+
+input[type=text], input[type=password]{
+	width: 100%;
+	padding: 10px;
+	margin: 5px 0 22px 0;
+	border: none;
+	background: #f1f1f1;
+}
+
+footer{
+	font-size: 10px;
+	padding-top: 100px;
+}
+
+@media (max-width: 620px) {
+	.header{
+		color: white;
+		font-family: 'Roboto Slab', serif;
+		font-size: 50px;
+		padding-bottom: 50px;
+		
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.box{
+		height: 450px;
+		width: 280px;
+		padding-bottom: 20px;
+		
+		display: flex;
+		flex-direction: column;
+	}
+	
+	.img{
+		height: 200px;
+		width: 168px;
+		padding-top: 40px;
+		padding-bottom: 60px;
+		
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	
+	.btn{
+		background-color: #78858B;
+		color: white;
+		padding-bottom: 25px;
+		border: none;
+		cursor: pointer;
+		width: 50%;
+		align-text: center;
+		
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	input[type=text], input[type=password]{
+		width: 95%;
+		padding: 10px;
+		margin: 25px 0 22px 0;
+		border: none;
+		background: #f1f1f1;
+	}
+	
+	.forms{
+		padding-top: 0px;
+		padding-left: 0px;
+		padding-right: 0px;
+		padding-bottom: 170px;
+		
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	
+	footer{
+		padding-top: 100px;
+		padding-bottom: 10px;
+	}
+}
